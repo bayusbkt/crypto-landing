@@ -1,4 +1,5 @@
 import { ReactTyped } from "react-typed";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -20,8 +21,11 @@ const Hero = () => {
             loop
           />
         </div>
-        <p className="md:text-2xl text-xl font-bold text-gray-500">Monitor your data analytics to increase revenue for BTB, BTC & SASS platforms.</p>
-        <button className="bg-[#00df9a] w-[200px] font-medium rounded-md my-6 mx-auto py-3 text-black">Get Started</button>
+        <p className="md:text-2xl text-xl font-bold text-gray-500">
+          Monitor your data analytics to increase revenue for BTB, BTC & SASS
+          platforms.
+        </p>
+        <Button bgColor="#00df9a" textColor="black" text="Get Started" />
       </div>
     </div>
   );
